@@ -8,7 +8,8 @@ export default function App() {
     < div>
     <Routes>
       <Route  path='/' element= {<LoginPage/>} />
-      <Route  path='/signup' element= {<Signup/>} />
+      <Route  path='/signUp' element= {<Signup/>} />
+      {/* <Route  path='/signUp' element= {<Signup/>} /> */}
     </Routes>
     </div>
   )
