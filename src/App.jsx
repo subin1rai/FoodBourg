@@ -7,21 +7,11 @@ export default function App() {
   return (
     < div>
     <Routes>
-      <Route  path='/' element= {<LoginPage/>} />
-      <Route  path='/signUp' element= {<Signup/>} />
+      <Route  path='/' element= {<LoginPage />} />
+      <Route  path='/signup' element= {<Signup/>} />
+      <Route  path='/*' element= {<Navigate to='/'/>} />
+      {/* <Route  path='/signUp' element= {<Signup/>} /> */}
     </Routes>
     </div>
   )
 }
-
-// export default function App() {
-//   return (
-//     < div>
-//     <Routes>
-//       <Route  path='/' element= {<LoginPage/>} />
-//       <Route  path='/signUp' element= {<Signup/>} />
-//       {/* <Route  path='/signUp' element= {<Signup/>} /> */}
-//     </Routes>
-//     </div>
-//   )
-// }
