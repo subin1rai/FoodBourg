@@ -1,6 +1,7 @@
 import NavbarLogin from "./components/NavbarLogin";
-import LoginPage from "./Pages/LoginPage";
-import Signup from "./Pages/SignUp/SignUp";
+import LoginPage from "./Pages/LoginPage/LoginPage.jsx";
+import Signup from "./Pages/SignUp/SignUp.jsx";
+import Admin from "./Admin/Admin.jsx"
 import { Navigate, Route, Routes } from "react-router-dom";
 
 export default function App() {
@@ -8,9 +9,9 @@ export default function App() {
     < div>
     <Routes>
       <Route  path='/' element= {<LoginPage />} />
-      <Route  path='/signup' element= {<Signup/>} />
+      <Route  path='/signUp' element= {<Signup/>} />
+      <Route  path='/admin' element= {<Admin/>} />
       <Route  path='/*' element= {<Navigate to='/'/>} />
-      {/* <Route  path='/signUp' element= {<Signup/>} /> */}
     </Routes>
     </div>
   )
