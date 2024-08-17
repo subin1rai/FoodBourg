@@ -7,3 +7,9 @@
 :root{
     font-family: 'Roboto',sans-serif;
 }
+
+@layer components{
+.icon{
+    @apply text-white text-2xl
+}
+}

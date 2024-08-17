@@ -9,11 +9,11 @@ export default {
       height: {
         'screen-minus-80': 'calc(100vh - 80px)',
       },
-      
       colors: {
+        // primary: 'blue',
         primary: '#C41E24',
-      },
-      
+        icons:'text-white text-2xl',
+      },      
     },
   },
   plugins: [],

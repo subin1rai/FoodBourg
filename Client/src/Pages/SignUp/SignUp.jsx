@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import NavbarLogin from "../../components/NavbarLogin";
+import NavbarLogin from "../../components/NavBarLogin.jsx";
 import signUpImage from "../../../public/images/Shawarma-bro.png";
 const SignUp = () => {
   return (
