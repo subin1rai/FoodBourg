@@ -1,6 +1,6 @@
 import React from 'react'
-import NavbarLogin from '../../components/NavbarLogin';
 import { Link } from "react-router-dom";
+import NavbarLogin from '../../components/NavBarLogin.jsx';
 
 const LoginPage = () => {
   return (
