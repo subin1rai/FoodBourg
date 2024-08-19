@@ -6,6 +6,8 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import Visual from "./Admin/components/Content.jsx";
 import Chart from "./Admin/components/Chart.jsx";
 import User from "./Admin/pages/User.jsx";
+import Vendor from "./Admin/pages/Vendor.jsx";
+import Staff from "./Admin/pages/Staff.jsx";
 
 export default function App() {
   return (
@@ -17,6 +19,9 @@ export default function App() {
       <Route  path='/visual' element= {<Visual/>} />
       <Route  path='/chart' element= {<Chart/>} />
       <Route  path='/user' element= {<User/>} />
+      <Route  path='/vendor' element= {<Vendor/>} />
+      <Route  path='/staff' element= {<Staff/>} />
+      <Route  path='/deliveryBoy' element= {<Staff/>} />
       <Route  path='/*' element= {<Navigate to='/'/>} />
     </Routes>
     </div>

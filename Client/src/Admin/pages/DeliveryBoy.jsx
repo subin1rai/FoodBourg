@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "../components/Header.jsx";
 import SideBar from "../components/SideBar.jsx";
-import UserTable from "../components/UserTable.jsx";
 import Pagination from "../components/Pagination.jsx";
 import AllUserNavBar from "../components/AllUserNavBar.jsx";
 import SearchFilter from "../components/SearchFilter.jsx";
+import DeliveryTable from "../component`s/DeliveryTable.jsx";
 
-function User() {
+function DeliveryBoy() {
   return (
     <>
       <Header />
@@ -17,7 +17,7 @@ function User() {
           <div className="m-3">
             <SearchFilter />
           </div>
-          <UserTable />
+          <DeliveryTable />
           <div className="flex justify-end m-6">
             <Pagination />
           </div>
@@ -27,4 +27,4 @@ function User() {
   );
 }
 
-export default User;
+export default DeliveryBoy;
