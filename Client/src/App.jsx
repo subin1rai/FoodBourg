@@ -5,6 +5,7 @@ import Admin from "./Admin/Admin.jsx"
 import { Navigate, Route, Routes } from "react-router-dom";
 import Visual from "./Admin/components/Content.jsx";
 import Chart from "./Admin/components/Chart.jsx";
+import User from "./Admin/pages/User.jsx";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Route  path='/admin' element= {<Admin/>} />
       <Route  path='/visual' element= {<Visual/>} />
       <Route  path='/chart' element= {<Chart/>} />
+      <Route  path='/user' element= {<User/>} />
       <Route  path='/*' element= {<Navigate to='/'/>} />
     </Routes>
     </div>

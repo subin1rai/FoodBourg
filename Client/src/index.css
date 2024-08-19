@@ -8,8 +8,10 @@
     font-family: 'Roboto',sans-serif;
 }
 
-@layer components{
 .icon{
     @apply text-white text-2xl
 }
+
+.nav-name{
+    @apply text-sm text-white font-bold
 }
