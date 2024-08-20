@@ -36,10 +36,10 @@ function StaffTable() {
             <th scope="row" className="px-6 py-4 font-medium text-gray-900">
               Alex 
             </th>
-            <td className="px-6 py-4">java cafe</td>
-            <td className="px-6 py-4">java@gmail.com</td>
-            <td className="px-6 py-4">12334</td>
-            <td className="px-6 py-4">Kathmandu</td>
+            <td className="px-6 py-4">Alex Limbu</td>
+            <td className="px-6 py-4">alex@gmail.com</td>
+            <td className="px-6 py-4">4321</td>
+            <td className="px-6 py-4">New York</td>
             <td className="px-6 py-4">98473627162</td>
             <td className="px-6 py-4 flex space-x-4">
               <a href="#" className="text-blue-600">
