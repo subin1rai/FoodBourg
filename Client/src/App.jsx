@@ -8,6 +8,7 @@ import Chart from "./Admin/components/Chart.jsx";
 import User from "./Admin/pages/User.jsx";
 import Vendor from "./Admin/pages/Vendor.jsx";
 import Staff from "./Admin/pages/Staff.jsx";
+import DeliveryBoy from "./Admin/pages/DeliveryBoy.jsx"
 
 export default function App() {
   return (
@@ -21,7 +22,7 @@ export default function App() {
       <Route  path='/user' element= {<User/>} />
       <Route  path='/vendor' element= {<Vendor/>} />
       <Route  path='/staff' element= {<Staff/>} />
-      <Route  path='/deliveryBoy' element= {<Staff/>} />
+      <Route  path='/deliveryBoy' element= {<DeliveryBoy/>} />
       <Route  path='/*' element= {<Navigate to='/'/>} />
     </Routes>
     </div>
