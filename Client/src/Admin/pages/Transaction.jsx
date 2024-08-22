@@ -18,7 +18,6 @@ function Transaction() {
           <SearchFilter />
         </div>
         <SalesTable />
-        table
         <div className="flex justify-end m-6">
           <Pagination />
         </div>
