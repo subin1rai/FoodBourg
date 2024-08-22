@@ -35,8 +35,10 @@ function SideBar() {
       </div>
 
       <div className="dashboard flex items-center gap-[.5rem] m-2">
+        <Link to="/transaction">
         <AiOutlineDollar className="icon" />
         <span className="nav-name">Transactions</span>
+        </Link>
       </div>
 
       <div className="dashboard flex items-center gap-[.5rem] m-2">
