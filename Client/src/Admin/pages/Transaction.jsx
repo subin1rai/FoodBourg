@@ -4,7 +4,7 @@ import SideBar from "../components/SideBar.jsx";
 import Pagination from "../components/Pagination.jsx";
 import AllUserNavBar from "../components/AllUserNavBar.jsx";
 import SearchFilter from "../components/SearchFilter.jsx";
-import SalesTable from "../components/SalesTable.jsx";
+import SalesTable from "../components/Table/SalesTable.jsx";
 
 function Transaction() {
   return (

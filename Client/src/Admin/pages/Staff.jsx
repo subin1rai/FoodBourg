@@ -4,7 +4,7 @@ import SideBar from "../components/SideBar.jsx";
 import Pagination from "../components/Pagination.jsx";
 import AllUserNavBar from "../components/AllUserNavBar.jsx";
 import SearchFilter from "../components/SearchFilter.jsx";
-import StaffTable from "../components/StaffTable.jsx";
+import StaffTable from "../components/Table/StaffTable.jsx";
 
 function Staff() {
   return (

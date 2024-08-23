@@ -4,7 +4,7 @@ import SideBar from "../components/SideBar.jsx";
 import Pagination from "../components/Pagination.jsx";
 import AllUserNavBar from "../components/AllUserNavBar.jsx";
 import SearchFilter from "../components/SearchFilter.jsx";
-import DeliveryTable from "../components/DeliveryTable.jsx";
+import DeliveryTable from "../components/Table/DeliveryTable.jsx";
 
 function DeliveryBoy() {
   return (
