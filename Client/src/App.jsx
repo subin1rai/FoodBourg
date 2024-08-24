@@ -4,12 +4,14 @@ import SignUp from "./Pages/SignUp/SignUp.jsx";
 import Admin from "./Admin/Admin.jsx"
 import { Navigate, Route, Routes } from "react-router-dom";
 import Visual from "./Admin/components/Content.jsx";
-import Chart from "./Admin/components/Chart.jsx";
+import Chart from "./Admin/components/Chart/Chart.jsx";
 import User from "./Admin/pages/User.jsx";
 import Vendor from "./Admin/pages/Vendor.jsx";
 import Staff from "./Admin/pages/Staff.jsx";
 import DeliveryBoy from "./Admin/pages/DeliveryBoy.jsx"
 import Transaction from "./Admin/pages/Transaction.jsx";
+import FourButton from "./Admin/components/Button/FourButton.jsx";
+import Discount from "./Admin/pages/Discount.jsx";
 
 export default function App() {
   return (
@@ -23,8 +25,10 @@ export default function App() {
       <Route  path='/user' element= {<User/>} />
       <Route  path='/vendor' element= {<Vendor/>} />
       <Route  path='/staff' element= {<Staff/>} />
+      <Route  path='/button' element= {<FourButton/>} />
       <Route  path='/deliveryBoy' element= {<DeliveryBoy/>} />
       <Route  path='/transaction' element= {<Transaction/>} />
+      <Route  path='/discount' element= {<Discount/>} />
       
       <Route  path='/*' element= {<Navigate to='/'/>} />
     </Routes>

@@ -4,9 +4,9 @@ import SideBar from "../components/SideBar.jsx";
 import Pagination from "../components/Pagination.jsx";
 import AllUserNavBar from "../components/Navigation/AllUserNavBar.jsx";
 import SearchFilter from "../components/SearchFilter.jsx";
-import SalesTable from "../components/Table/SalesTable.jsx";
+import CouponTable from "../components/Table/CouponTable.jsx";
 
-function Transaction() {
+function Discount() {
   return (
     <>
     <Header />
@@ -17,7 +17,7 @@ function Transaction() {
         <div className="m-3">
           <SearchFilter />
         </div>
-        <SalesTable />
+        <CouponTable />
         <div className="flex justify-end m-6">
           <Pagination />
         </div>
@@ -27,4 +27,4 @@ function Transaction() {
   )
 }
 
-export default Transaction
+export default Discount
