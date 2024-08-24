@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../components/Header.jsx";
+import Header from "../components/Chart/Header.jsx";
 import SideBar from "../components/SideBar.jsx";
 import UserTable from "../components/Table/UserTable.jsx";
 import Pagination from "../components/Pagination.jsx";
-import AllUserNavBar from "../components/AllUserNavBar.jsx";
+import AllUserNavBar from "../components/Navigation/AllUserNavBar.jsx";
 import SearchFilter from "../components/SearchFilter.jsx";
 
 function User() {

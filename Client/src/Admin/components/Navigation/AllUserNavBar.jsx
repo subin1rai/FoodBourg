@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import AddUserBtn from '../Button/AddUserBtn';
 
 function AllUserNavBar() {
   return (
@@ -9,7 +10,7 @@ function AllUserNavBar() {
         <Link to="/deliveryBoy"><span className='text-xl'>Delivery Boy</span></Link>
         <Link to="/user"><span className='text-xl'>User</span></Link>
       </div>
-      <button type="button" className="focus:outline-none text-white bg-[#C41E24] hover:bg-red-800 font-medium rounded-lg text-sm px-7 py-4 me-2 mb-2">Add User</button>
+      <AddUserBtn/>
     </nav>
   )
 }
