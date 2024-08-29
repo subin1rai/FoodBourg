@@ -4,7 +4,7 @@ import SideBar from "../components/SideBar.jsx";
 import Pagination from "../components/Pagination.jsx";
 import AllUserNavBar from "../components/Navigation/AllUserNavBar.jsx";
 import SearchFilter from "../components/SearchFilter.jsx";
-import CouponTable from "../components/Table/CouponTable.jsx";
+import CouponTable from "../components/Table/CoupanTable.jsx";
 
 function Discount() {
   return (
@@ -17,7 +17,7 @@ function Discount() {
         <div className="m-3">
           <SearchFilter />
         </div>
-        <CouponTable />
+        < CouponTable/>
         <div className="flex justify-end m-6">
           <Pagination />
         </div>
