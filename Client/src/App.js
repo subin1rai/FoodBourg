@@ -1,6 +1,6 @@
 import LoginPage from "./Pages/LoginPage/LoginPage.jsx";
 import SignUp from "./Pages/SignUp/SignUp.jsx";
-import Admin from "./Admin/Admin.jsx"
+import Admin from "./Admin/pages/Admin.jsx"
 import Visual from "./Admin/components/Content.jsx";
 import Chart from "./Admin/components/Chart/Chart.jsx";
 import User from "./Admin/pages/User.jsx";

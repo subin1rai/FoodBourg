@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { TbLayoutDashboard } from "react-icons/tb";
-import { LuUser2 } from "react-icons/lu";
-import { LuFlagTriangleRight } from "react-icons/lu";
+import { LuUser2, LuFlagTriangleRight } from "react-icons/lu";
 import { FiGift } from "react-icons/fi";
 import { AiOutlineDollar } from "react-icons/ai";
 import { CiDiscount1 } from "react-icons/ci";
