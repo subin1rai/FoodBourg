@@ -1,10 +1,4 @@
-import React from "react";
-import Header from "../components/Chart/Header.jsx";
-import SideBar from "../components/SideBar.jsx";
-import Pagination from "../components/Pagination.jsx";
-import AllUserNavBar from "../components/Navigation/AllUserNavBar.jsx";
-import SearchFilter from "../components/SearchFilter.jsx";
-import SalesTable from "../components/Table/SalesTable.jsx";
+import { Header, SideBar, Pagination, AllUserNavBar, SearchFilter, SalesTable } from "./Pages";
 
 function Transaction() {
   return (

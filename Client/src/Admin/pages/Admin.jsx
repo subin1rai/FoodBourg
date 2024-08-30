@@ -1,8 +1,4 @@
-import React from "react";
-import Header from "./components/Chart/Header.jsx";
-import SideBar from "./components/SideBar.jsx";
-import Content from "./components/Content.jsx";
-import Chart from "./components/Chart/Chart.jsx";
+import {Header, SideBar, Chart, Content} from "./Pages.js";
 
 function Admin() {
   return (

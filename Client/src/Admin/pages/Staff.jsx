@@ -1,10 +1,4 @@
-import React from "react";
-import Header from "../components/Chart/Header.jsx";
-import SideBar from "../components/SideBar.jsx";
-import Pagination from "../components/Pagination.jsx";
-import AllUserNavBar from "../components/Navigation/AllUserNavBar.jsx";
-import SearchFilter from "../components/SearchFilter.jsx";
-import StaffTable from "../components/Table/StaffTable.jsx";
+import { Header, SideBar, Pagination, AllUserNavBar , SearchFilter, StaffTable} from "./Pages";
 
 function Staff() {
   return (

@@ -1,10 +1,11 @@
-import React from "react";
-import Header from "../components/Chart/Header.jsx";
-import SideBar from "../components/SideBar.jsx";
-import Pagination from "../components/Pagination.jsx";
-import AllUserNavBar from "../components/Navigation/AllUserNavBar.jsx";
-import SearchFilter from "../components/SearchFilter.jsx";
-import VendorTable from "../components/Table/VendorTable.jsx";
+import {
+  Header,
+  AllUserNavBar,
+  SideBar,
+  Pagination,
+  SearchFilter,
+  VendorTable,
+} from "./Pages.js";
 
 function Vendor() {
   return (
