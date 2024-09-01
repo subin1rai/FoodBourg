@@ -88,10 +88,12 @@ function RevenueAnalysis() {
   };
 
   return (
-    <div className="">
+    <>
+      <div className="">
+    <div className="my-8">
       <div className="flex justify-between">
         <h2 className="">Review Analysis</h2>
-        <div>
+        <div className="">
           <button type="button" className="focus:outline-none text-black bg-[#E5E5E5] font-medium text-sm px-5 py-2.5 mb-2">Weekly</button>
           <button type="button" className="focus:outline-none text-white bg-[#39B54A] font-medium text-sm px-5 py-2.5 mb-2">Today</button>
           <button type="button" className="focus:outline-none text-black bg-[#E5E5E5] font-medium text-sm px-5 py-2.5 mb-2">Monthly</button>
@@ -99,6 +101,9 @@ function RevenueAnalysis() {
       </div>
       <Bar data={data} options={options} />
     </div>
+    </div>
+    </>
+
   );
 }
 
