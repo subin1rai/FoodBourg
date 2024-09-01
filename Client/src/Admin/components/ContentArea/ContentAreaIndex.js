@@ -2,8 +2,11 @@ import RevenueAnalysis from "../Chart/RevenueAnalysis";
 import Statistics from "../Statistics";
 import UserTable from "../Table/UserTable"
 import AllUserNavBar from "../Navigation/AllUserNavBar";
-import SearchFilter from "../SearchFilter";
+// component
+import TopList from "../Card/TopList";
 import Pagination from "../Pagination";
+import SearchFilter from "../SearchFilter";
+
 
 
 export {
@@ -12,5 +15,6 @@ export {
     UserTable,
     Pagination, 
     SearchFilter,
-    AllUserNavBar
+    AllUserNavBar,
+    TopList
 };

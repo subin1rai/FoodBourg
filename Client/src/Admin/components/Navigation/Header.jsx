@@ -4,7 +4,7 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 
 function Header() {
   return (
-    <header className="flex justify-between items-center bg-primary h-[80px] px-6 sticky top-0">
+    <header className="flex justify-between items-center bg-primary h-[80px] px-6 sticky top-0 w-[100%]">
       <div className="flex items-center space-x-2">
         <img src={logo} alt="logo" className="object-cover" width={60} />
         <span className="text-white text-xl font-semibold">FoodBourg</span>

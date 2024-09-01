@@ -1,14 +1,13 @@
 import React from "react";
-import { RevenueAnalysis, Statistics } from "./ContentAreaIndex";
+import { RevenueAnalysis, Statistics, TopList } from "./ContentAreaIndex";
 
 function DashboardContent() {
   return (
     <div className="flex flex-col">
-      <div>
-        <Statistics />
-      </div>
-      <div className="w-[150vh]">
+      <Statistics />
+      <div className="w-[1250px] p-10 shadow-lg ml-4">
         <RevenueAnalysis />
+        <TopList />
       </div>
     </div>
   );
