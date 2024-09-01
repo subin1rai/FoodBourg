@@ -1,7 +1,7 @@
 import React from "react";
 import CardComponent from "./CardComponent.jsx";
 
-function Content() {
+function Statistics() {
   return (
     <main className='border-2 p-4'>
       <h1 className='text-2xl font-bold mb-4'>Dashboard</h1>
@@ -15,4 +15,4 @@ function Content() {
   );
 }
 
-export default Content;
+export default Statistics;

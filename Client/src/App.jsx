@@ -3,7 +3,6 @@ import {
   LoginPage,
   SignUp,
   Admin,
-  Visual,
   Chart,
   User,
   Vendor,
@@ -21,7 +20,6 @@ export default function App() {
         <Route path="/" element={<LoginPage />} />
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/admin" element={<Admin />} />
-        <Route path="/visual" element={<Visual />} />
         <Route path="/chart" element={<Chart />} />
         <Route path="/user" element={<User />} />
         <Route path="/vendor" element={<Vendor />} />
