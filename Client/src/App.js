@@ -1,8 +1,8 @@
 import LoginPage from "./Pages/LoginPage/LoginPage.jsx";
 import SignUp from "./Pages/SignUp/SignUp.jsx";
 import Admin from "./Admin/pages/Admin.jsx"
-import Visual from "./Admin/components/Content.jsx";
-import Chart from "./Admin/components/Chart/Chart.jsx";
+import Statistics from "./Admin/components/Statistics.jsx";
+import Chart from "./Admin/components/Chart/RevenueAnalysis.jsx";
 import User from "./Admin/pages/User.jsx";
 import Vendor from "./Admin/pages/Vendor.jsx";
 import Staff from "./Admin/pages/Staff.jsx";
@@ -16,7 +16,7 @@ export{
     LoginPage,
     SignUp,
     Admin,
-    Visual,
+    Statistics,
     Chart,
     User,
     Vendor,

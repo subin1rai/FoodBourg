@@ -20,7 +20,7 @@ ChartJS.register(
   Legend
 );
 
-function Chart() {
+function RevenueAnalysis() {
   // Chart data
   const data = {
     labels: [
@@ -102,4 +102,4 @@ function Chart() {
   );
 }
 
-export default Chart;
+export default RevenueAnalysis;

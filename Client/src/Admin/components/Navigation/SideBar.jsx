@@ -7,49 +7,56 @@ import { CiDiscount1 } from "react-icons/ci";
 
 function SideBar() {
   return (
-    <nav className="bg-primary p-[20px] h-[89.5vh]">
-      <div className="dashboard flex items-center gap-[.5rem] m-2">
-        <Link to="/admin">
+    <nav className="bg-primary p-[20px] h-screen">
+      
+      <Link to="/admin">
+        <div className="dashboard flex items-center gap-[.5rem] m-2">
           <TbLayoutDashboard className="icon" />
           <span className="nav-name">Dashboard</span>
-        </Link>
-      </div>
+        </div>
+      </Link>
 
-      <div className="dashboard flex items-center gap-[.5rem] m-2">
-        <Link to="/user">
+      <Link to="/user">
+        <div className="dashboard flex items-center gap-[.5rem] m-2">
           <LuUser2 className="icon" />
           <span className="nav-name">All User</span>
-        </Link>
-      </div>
+        </div>
+      </Link>
 
-      <div className="dashboard flex items-center gap-[.5rem] m-2">
-        <LuFlagTriangleRight className="icon" />
-        <span className="nav-name">Page & Ads</span>
-      </div>
+      <Link to="/ads">
+        <div className="dashboard flex items-center gap-[.5rem] m-2">
+          <LuFlagTriangleRight className="icon" />
+          <span className="nav-name">Page & Ads</span>
+        </div>
+      </Link>
 
-      <div className="dashboard flex items-center gap-[.5rem] m-2">
-        <FiGift className="icon" />
-        <span className="nav-name">Business Model</span>
-      </div>
+      <Link to="/businessModel">
+        <div className="dashboard flex items-center gap-[.5rem] m-2">
+          <FiGift className="icon" />
+          <span className="nav-name">Business Model</span>
+        </div>
+      </Link>
 
-      <div className="dashboard flex items-center gap-[.5rem] m-2">
-        <Link to="/transaction">
+      <Link to="/transaction">
+        <div className="dashboard flex items-center gap-[.5rem] m-2">
           <AiOutlineDollar className="icon" />
           <span className="nav-name">Transactions</span>
-        </Link>
-      </div>
+        </div>
+      </Link>
 
-      <div className="dashboard flex items-center gap-[.5rem] m-2">
-        <Link to="/discount">
+      <Link to="/discount">
+        <div className="dashboard flex items-center gap-[.5rem] m-2">
           <CiDiscount1 className="icon" />
           <span className="nav-name">Discount & Offer</span>
-        </Link>
-      </div>
+        </div>
+      </Link>
 
-      <div className="dashboard flex items-center gap-[.5rem] m-2">
-        <AiOutlineDollar className="icon" />
-        <span className="nav-name">Sales History</span>
-      </div>
+      <Link to="/salesHistory">
+        <div className="dashboard flex items-center gap-[.5rem] m-2">
+          <AiOutlineDollar className="icon" />
+          <span className="nav-name">Sales History</span>
+        </div>
+      </Link>
     </nav>
   );
 }
