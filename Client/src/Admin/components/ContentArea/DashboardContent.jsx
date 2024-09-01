@@ -1,6 +1,5 @@
 import React from "react";
-import Statistics from "../Statistics";
-import { RevenueAnalysis } from "./ContentAreaIndex";
+import { RevenueAnalysis, Statistics } from "./ContentAreaIndex";
 
 function DashboardContent() {
   return (

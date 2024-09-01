@@ -1,19 +1,15 @@
-import { Header, SideBar,UserTable, Pagination, AllUserNavBar, SearchFilter } from "./Pages";
+import { Header, SideBar, UserContent  } from "./Pages";
+
 function User() {
   return (
-    <>
+    <>      
       <Header />
       <div className="flex">
-        <SideBar />
-        <div className="w-full p-4">
-          <AllUserNavBar />
-          <div className="m-3">
-            <SearchFilter />
-          </div>
-          <UserTable />
-          <div className="flex justify-end m-6">
-            <Pagination />
-          </div>
+        <div className="fixed">
+          <SideBar />
+        </div>
+        <div className="ml-56 flex-1 p-6">
+          <UserContent />
         </div>
       </div>
     </>
