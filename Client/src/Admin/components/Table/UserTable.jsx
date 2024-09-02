@@ -36,7 +36,7 @@ function UserTable() {
             <th scope="row" className="px-6 py-4 font-medium text-gray-900">
               V12
             </th>
-            <td className="px-6 py-4">Alex</td>
+            <td className="px-6 py-4">User</td>
             <td className="px-6 py-4">java@gmail.com</td>
             <td className="px-6 py-4">12334</td>
             <td className="px-6 py-4">Kathmandu</td>

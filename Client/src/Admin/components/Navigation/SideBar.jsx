@@ -23,14 +23,14 @@ function SideBar() {
         </div>
       </Link>
 
-      <Link to="/ads">
+      <Link to="#">
         <div className="dashboard flex items-center gap-[.5rem] m-2">
           <LuFlagTriangleRight className="icon" />
           <span className="nav-name">Page & Ads</span>
         </div>
       </Link>
 
-      <Link to="/businessModel">
+      <Link to="#">
         <div className="dashboard flex items-center gap-[.5rem] m-2">
           <FiGift className="icon" />
           <span className="nav-name">Business Model</span>
@@ -51,7 +51,7 @@ function SideBar() {
         </div>
       </Link>
 
-      <Link to="/salesHistory">
+      <Link to="/">
         <div className="dashboard flex items-center gap-[.5rem] m-2">
           <AiOutlineDollar className="icon" />
           <span className="nav-name">Sales History</span>

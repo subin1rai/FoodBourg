@@ -34,7 +34,7 @@ function StaffTable() {
         <tbody>
           <tr className="odd:bg-white even:bg-gray-50 border-b">
             <th scope="row" className="px-6 py-4 font-medium text-gray-900">
-              Alex 
+              Staff 
             </th>
             <td className="px-6 py-4">Alex Limbu</td>
             <td className="px-6 py-4">alex@gmail.com</td>

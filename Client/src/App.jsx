@@ -5,10 +5,12 @@ import {
   Admin,
   Chart,
   User,
-  Vendor,
-  Staff,
-  DeliveryBoy,
+  // Vendor,
+  // Staff,
+  // DeliveryBoy,
   Transaction,
+  UserContent,
+  StaffContent,
   FourButton,
   Discount,
 } from "./App.js";
@@ -22,13 +24,14 @@ export default function App() {
         <Route path="/admin" element={<Admin />} />
         <Route path="/chart" element={<Chart />} />
         <Route path="/user" element={<User />} />
-        <Route path="/vendor" element={<Vendor />} />
-        <Route path="/staff" element={<Staff />} />
+        {/* <Route path="/vendor" element={<Vendor />} /> */}
+        {/* <Route path="/staff" element={<Staff />} /> */}
         <Route path="/button" element={<FourButton />} />
-        <Route path="/deliveryBoy" element={<DeliveryBoy />} />
+        {/* <Route path="/deliveryBoy" element={<DeliveryBoy />} /> */}
         <Route path="/transaction" element={<Transaction />} />
         <Route path="/discount" element={<Discount />} />
-
+        <Route path="/userContent" element={<UserContent />} />
+        <Route path="/staffContent" element={<StaffContent />} />
         <Route path="/*" element={<Navigate to="/" />} />
       </Routes>
     </div>

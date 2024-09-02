@@ -1,22 +1,19 @@
-import { Header, SideBar, Pagination, AllUserNavBar, SearchFilter, SalesTable } from "./Pages";
+import { Header, SideBar, TransactionNavBar } from "./Pages";
 
 function Transaction() {
   return (
     <>
     <Header />
-    <div className="flex">
-      <SideBar />
-      <div className="w-full p-4">
-        <AllUserNavBar />
-        <div className="m-3">
-          <SearchFilter />
+      <div className="flex">
+        <div className="fixed">
+          <SideBar />
         </div>
-        <SalesTable />
-        <div className="flex justify-end m-6">
-          <Pagination />
+        <div className="ml-56 flex-1 p-6">
+          <TransactionNavBar/>
+          {/* <TransactionContent /> */}
+          {/* other content based on condition */}
         </div>
       </div>
-    </div>
   </>
   )
 }

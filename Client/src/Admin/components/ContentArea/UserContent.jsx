@@ -2,14 +2,14 @@ import React from "react";
 import {
   UserTable,
   Pagination,
-  AllUserNavBar,
-  SearchFilter,
+  // AllUserNavBar,
+  SearchFilter
 } from "./ContentAreaIndex";
 
 function UserContent() {
   return (
     <div>
-      <AllUserNavBar />
+      {/* <AllUserNavBar /> */}
       <SearchFilter/>
       <UserTable/>
       <div className="flex justify-end">
