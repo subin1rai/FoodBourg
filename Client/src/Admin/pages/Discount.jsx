@@ -1,22 +1,23 @@
-import { Header, SideBar, Pagination, AllUserNavBar , SearchFilter, CouponTable} from "./Pages";
+import DiscountContent from "../components/ContentArea/DiscountContent";
+import { Header, SideBar,  
+  // AllUserNavBar
+} from "./Pages";
 
 function Discount() {
   return (
     <>
     <Header />
-    <div className="flex">
-      <SideBar />
-      <div className="w-full p-4">
-        <AllUserNavBar />
-        <div className="m-3">
-          <SearchFilter />
+      <div className="flex">
+        <div className="fixed">
+          <SideBar />
         </div>
-        < CouponTable/>
-        <div className="flex justify-end m-6">
-          <Pagination />
+        <div className="ml-56 flex-1 p-6">
+          {/* <AllUserNavBar/> */}
+          <DiscountContent />
+          {/* <StaffContent /> */}
+          {/* other content based on condition */}
         </div>
       </div>
-    </div>
   </>
   )
 }
